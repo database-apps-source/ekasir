@@ -1,6 +1,2 @@
-/* Konfigurasi frontend E-Kasir — SATU-SATUNYA berkas yang perlu Anda ubah setelah deploy backend. */
-window.EKASIR_CONFIG = {
-  // Tempel URL Web App dari Apps Script (Deploy → New deployment → Web app), berakhiran /exec
-  API_URL: 'https://script.google.com/macros/s/AKfycbyLgp4kWZ4aO3-H9c7qTje-iJcYvVE7fIgSrtDGlFOokod4c41OASs2ct24Aj5TpPNAVQ/exec',
-  VERSION: '1.0.0'
-};
+// Isi dengan URL /exec dari Apps Script (Deploy → Web App) SEBELUM git push
+window.GAS_URL = 'https://script.google.com/macros/s/AKfycbzcGDWEmZlZsdEmuQdqlUUawWy05IffgRjoO_aceBXL5ZjYggMUSqBsTwXi9E_LQmI/exec';
